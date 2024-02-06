@@ -1,0 +1,564 @@
+body {
+    background-color: rgba(0, 0, 0, 0.718);
+    height: 2500px;
+    margin-bottom: 0px;
+}
+
+.containor img {
+    height: 700px;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    filter: opacity(5) brightness(0.5);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+#lang {
+    position: absolute;
+    right: 260px;
+    top: 40px;
+    height: 35px;
+    width: 130px;
+    text-align: center;
+    padding: 2px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.425);
+
+}
+
+.btn1 {
+    position: absolute;
+    right: 180px;
+    top: 40px;
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(227, 15, 15);
+    font-weight: bold;
+    color: white;
+    height: 35px;
+    width: 70px;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.heading {
+    position: absolute;
+    top: 250px;
+    font-size: 25px;
+    left: 310px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subheading {
+    position: relative;
+    top: -20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about {
+    text-align: center;
+    position: relative;
+    top: -40px;
+    font-size: 22px;
+}
+
+#inmail {
+    position: relative;
+    left: 160px;
+    top: -43px;
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 128, 0, 0.681);
+    text-align: start;
+    background-color: rgba(255, 255, 255, 0.193);
+
+}
+
+input {
+    color: white;
+    font-weight: bold;
+}
+
+input::placeholder {
+    position: relative;
+    top: -5px;
+    left: 10px;
+}
+
+.btn2 {
+    width: 170px;
+    height: 55px;
+    position: relative;
+    right: -160px;
+    top: -40px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.bt:hover {
+    background-color: rgba(255, 0, 0, 0.807);
+    transition: all 0.2s ease-in-out;
+}
+
+.secondbox {
+    background-color: black;
+    width: 100vw;
+    height: 600px;
+    position: absolute;
+    left: 0px;
+    right: -15px;
+    top: 708px;
+}
+
+#tvimg {
+    position: relative;
+    left: 740px;
+    top: 50px;
+    width: 580px;
+    background: transparent;
+    z-index: 1;
+}
+
+.heading2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: -380px;
+    right: -0px;
+    font-size: 50px;
+    padding: 130px;
+}
+
+#about2 {
+    color: white;
+    position: relative;
+    top: -650px;
+    left: 0px;
+    font-size: 25px;
+    width: 550px;
+    padding: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.videotv {
+    position: relative;
+    padding-top: 65px;
+    top: -1100px;
+    right: -817px;
+    width: 423px;
+
+
+}
+
+.thirdbox {
+    background-color: black;
+    width: 100vw;
+    height: 600px;
+    position: absolute;
+    top: 1315px;
+    left: 0px;
+    right: 0px;
+}
+
+.heading3 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 130px;
+    left: 750px;
+    width: 550px;
+    font-size: 50px;
+}
+
+.about3 {
+    color: white;
+    position: relative;
+    top: 120px;
+    left: 750px;
+    font-size: 25px;
+    width: 550px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imgback3 {
+    position: relative;
+    top: -230px;
+    left: 130px;
+    height: 440px;
+}
+
+.third-onebox {
+    position: relative;
+    top: -360px;
+    left: 260px;
+    color: white;
+    border: 1px solid white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 80px;
+    background-color: black;
+}
+
+.stranger {
+    display: inline;
+    position: relative;
+    top: -40px;
+    left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.stranger1 {
+    display: inline;
+    position: relative;
+    top: -20px;
+    left: -100px;
+    color: #0071eb;
+}
+
+.icon {
+    display: inline;
+    height: 50px;
+    position: relative;
+    top: -65px;
+    left: 230px;
+}
+
+.fourthbox {
+    position: relative;
+    top: -255px;
+    color: white;
+    background: black;
+    height: 550px;
+}
+
+.headingfourth {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 50px;
+    padding: 150px;
+    font-size: 50px;
+
+}
+
+.about4 {
+    color: white;
+    position: relative;
+    top: -120px;
+    left: 150px;
+    font-size: 25px;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tvimg2 {
+    position: relative;
+    left: 780px;
+    top: -410px;
+    width: 550px;
+    z-index: 1;
+}
+
+.video4 {
+    position: relative;
+    top: -590px;
+    width: 350px;
+    left: 320px;
+}
+
+.fifthbox {
+    position: relative;
+    top: -248px;
+    color: white;
+    background: black;
+    height: 550px;
+
+}
+
+.heading5 {
+    display: inline;
+    position: relative;
+    top: 170px;
+    right: -760px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    font-size: 50px;
+
+}
+
+.about5 {
+    color: white;
+    position: relative;
+    top: 150px;
+    right: -765px;
+    font-size: 25px;
+    width: 650px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.back5 {
+    position: relative;
+    top: -170px;
+    left: 120px;
+    width: 600px;
+    display: inline;
+}
+
+.sixthbox {
+    position: relative;
+    top: -275px;
+    color: white;
+    background: black;
+    height: 1000px;
+
+}
+
+.listone {
+    display: inline;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+
+}
+
+.sixthbox ul li {
+    padding: 30px;
+    text-align: start;
+    margin: 10px 200px;
+    border: 1px solid rgba(128, 128, 128, 0.684);
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(91, 88, 88, 0.656);
+    text-decoration: none;
+    list-style: none;
+}
+
+.heading6 {
+
+    position: relative;
+    top: 20px;
+    padding: 10px 420px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    font-size: 50px;
+
+}
+
+.sixthbox ul li p {
+    display: inline;
+    font-size: 30px;
+}
+
+.plus {
+    text-align: end;
+    position: relative;
+    left: 777px;
+}
+.sixthbox ul li:hover{
+    background-color: rgba(125, 121, 121, 0.656);
+    transition: all 0.3s ease-in-out;
+}
+
+#plus1 {
+    position: relative;
+    left: 900px;
+}
+
+.plus4 {
+    position: relative;
+    left: 890px;
+}
+
+.plus3 {
+    position: relative;
+    left: 865px;
+}
+
+.about7 {
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn3 {
+    width: 170px;
+    height: 55px;
+    position: relative;
+    left: 455px;
+    top: 100px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+#inmail1 {
+    position: relative;
+    top: 95px;
+    left: 450px;
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 128, 0, 0.681);
+    text-align: start;
+    background-color: rgba(255, 255, 255, 0.193);
+
+
+}
+
+.seventhbox {
+    background-color: black;
+    color: white;
+    height: 500px;
+    position: relative;
+    top: -267px;
+}
+
+.call {
+    color: white;
+    display: inline;
+    position: relative;
+    top: 50px;
+    left: 323px;
+}
+.links {
+ display: inline-flex;
+ flex-wrap: wrap;
+ height: inherit;
+ margin-top: -1rem;
+ margin-left: -0.75rem;
+ flex-direction: row;
+ position: relative;
+ top: 100px;
+ left: 70px;
+ padding-top: 30px;
+}
+.links ul li{
+    list-style: none;
+    padding-top: 30px;
+     
+}
+.links ul li a{
+    color: white;
+    padding: 20px 0px;
+    letter-spacing: inherit;
+    line-height: inherit;
+}
+.footer1{
+    display: inline;
+}
+
+ 
+.footer5{
+    display: inline;
+    position: relative;
+    left: 100px;
+    top: -82px;
+}
+.footer6{
+    display: inline;
+    position: relative;
+    left: 60px;
+    top: -57px;
+}
+.footer7{
+    display: inline;
+    position: relative;
+    left: 40px;
+    top: -37px
+}
+.footer8{
+    display: inline;
+    position: relative;
+    left: -24px;
+    top: -10px
+
+}
+.footer9{
+    display: inline;
+    position: relative;
+    left: 60px;
+    top: -82px
+
+}
+.footer10{
+    display: inline;
+    position: relative;
+    left: 30px;
+    top: -57px;
+
+}
+.footer11{
+    display: inline;
+    position: relative;
+    left: -20px;
+    top: -37px
+}
+.footer12{
+    display: inline;
+    position: relative;
+    left: -94px;
+    top: -10px
+
+}
+.footer13{
+    display: inline;
+    position: relative;
+    left: -20px;
+    top: -82px;
+}
+.footer14{
+    display: inline;
+    position: relative;
+    left: -65px;
+    top: -57px;
+}
+.footer15{
+    display: inline;
+    position: relative;
+    left: -110px;
+    top: -37px
+}
+.lang2{
+     position:relative;
+     display: inline;
+     top: 250px;
+     left: -540px;
+}
+.netindea{
+    position:relative;
+    top: -150px;
+    margin-left: 330px;
+     
+}
+.logo img{
+    z-index: 1;
+    position: absolute;
+    left: 80px;
+    top:-30px;
+    height: 200px;
+    filter: contrast(8) drop-shadow(1px 1px 5px black);
+}
+ 
